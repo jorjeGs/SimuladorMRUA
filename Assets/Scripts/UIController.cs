@@ -11,8 +11,10 @@ public class canvasController : MonoBehaviour
     public TMP_InputField tiempo;
     public TMP_Text salida;
 
+    private float distancia = 0;
+
     public void Simular()
     {
-        salida.text = "La V sera: " + velocidad.text + " m/s, con una A de " + aceleracion.text + " m/s^2, por " + tiempo.text + " segundos.";
+        
     }
 }
